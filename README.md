@@ -61,8 +61,7 @@ npm run dev
 **Prisma Schema (User Model)**
 
 model User {
-  id       Int    @id @default(autoincrement())
-  email    String @unique
+  id       Int    @ubique
   password String
 }
 
@@ -84,7 +83,7 @@ Backend built with Express + Prisma + MySQL
 Robust error handling in both frontend and backend
 
  Demo Video
-📎 Google Drive Link to Demo Video 
+📎[ Google Drive Link to Demo Video ](https://drive.google.com/file/d/16wDMA_uWh2LtiJceSyMiiLl-1C3jehB4/view?usp=drive_link)
 ✅ The video demonstrates:
 
 Login/Register flow
